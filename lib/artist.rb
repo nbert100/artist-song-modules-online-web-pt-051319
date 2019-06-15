@@ -1,6 +1,6 @@
 inquire 'pry'
-require_relative '../lib/concerns/memorable'
-require_relative '../lib/concerns/findable'
+require_relative '../lib/concerns/memorable.rb'
+require_relative '../lib/concerns/findable.rb'
 class Artist
   extend Memorable
   extend Findable
